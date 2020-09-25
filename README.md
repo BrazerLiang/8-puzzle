@@ -6,15 +6,12 @@
 #include <vector>
 #include <algorithm>
 #include <memory.h>
-
 using namespace std;
-
 typedef struct _Status{
     int status[3][3];
     _Status *parent;
     _Status *next;
 }Status;
-
 // A*排序依据
 bool decComparator(const Status &s1, const Status &s2){
     int gn1 = 0, gn2 = 0;
