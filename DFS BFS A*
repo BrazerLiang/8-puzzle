@@ -286,4 +286,4 @@ int main()
     cout << "step: " << ep.AStar() << endl;
     cout << "***********\n" << endl;
     return 0;
-}
+}//no error but not perfect
